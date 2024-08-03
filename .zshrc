@@ -105,7 +105,6 @@ autoload -U promptinit; promptinit
 prompt pure
 #fastfetch --file $HOME/.zsh/logo.txt --logo-color-1 red --logo-color-2 '38;5;208' --logo-color-3 yellow
 zstyle :prompt:pure:git:stash show yes
-zstyle :
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
