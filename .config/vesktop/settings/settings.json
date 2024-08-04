@@ -29,7 +29,7 @@
             "enabled": false
         },
         "MessageEventsAPI": {
-            "enabled": false
+            "enabled": true
         },
         "MessagePopoverAPI": {
             "enabled": false
@@ -50,9 +50,12 @@
             "enabled": false
         },
         "AnonymiseFileNames": {
-            "enabled": false
+            "enabled": true
         },
         "AppleMusicRichPresence": {
+            "enabled": false
+        },
+        "WebRichPresence (arRPC)": {
             "enabled": false
         },
         "AutomodContext": {
@@ -98,7 +101,7 @@
             "enabled": false
         },
         "ClearURLs": {
-            "enabled": false
+            "enabled": true
         },
         "ClientTheme": {
             "enabled": false
@@ -164,7 +167,7 @@
             "enabled": false
         },
         "FixCodeblockGap": {
-            "enabled": false
+            "enabled": true
         },
         "FixSpotifyEmbeds": {
             "enabled": false
@@ -220,9 +223,6 @@
         "LoadingQuotes": {
             "enabled": false
         },
-        "MaskedLinkPaste": {
-            "enabled": false
-        },
         "MemberCount": {
             "enabled": false
         },
@@ -272,21 +272,18 @@
             "enabled": false
         },
         "NoF1": {
-            "enabled": false
+            "enabled": true
         },
         "NoMosaic": {
             "enabled": false
         },
         "NoOnboardingDelay": {
-            "enabled": false
+            "enabled": true
         },
         "NoPendingCount": {
             "enabled": false
         },
         "NoProfileThemes": {
-            "enabled": false
-        },
-        "NoRPC": {
             "enabled": false
         },
         "NoReplyMention": {
@@ -296,9 +293,6 @@
             "enabled": false
         },
         "NoServerEmojis": {
-            "enabled": false
-        },
-        "NoSystemBadge": {
             "enabled": false
         },
         "NoTypingAnimation": {
@@ -323,7 +317,7 @@
             "enabled": false
         },
         "OpenInApp": {
-            "enabled": false
+            "enabled": true
         },
         "OverrideForumDefaults": {
             "enabled": false
@@ -523,8 +517,11 @@
         "VoiceMessages": {
             "enabled": false
         },
-        "VolumeBooster": {
-            "enabled": false
+        "WebKeybinds": {
+            "enabled": true
+        },
+        "WebScreenShareFixes": {
+            "enabled": true
         },
         "WhoReacted": {
             "enabled": false
@@ -539,9 +536,16 @@
             "enabled": true,
             "disableAnalytics": true
         },
+        "WebContextMenus": {
+            "enabled": true,
+            "addBack": true
+        },
         "Settings": {
             "enabled": true,
             "settingsLocation": "aboveNitro"
+        },
+        "SupportHelper": {
+            "enabled": true
         }
     },
     "notifications": {
@@ -554,6 +558,6 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1722651014993
+        "settingsSyncVersion": 1722800808449
     }
 }
