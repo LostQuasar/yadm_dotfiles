@@ -566,6 +566,9 @@
         },
         "SupportHelper": {
             "enabled": true
+        },
+        "NoMaskedUrlPaste": {
+            "enabled": false
         }
     },
     "notifications": {
@@ -578,6 +581,6 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1724106538038
+        "settingsSyncVersion": 1724774147801
     }
 }
