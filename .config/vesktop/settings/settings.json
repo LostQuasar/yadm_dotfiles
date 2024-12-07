@@ -115,7 +115,9 @@
         "ConsoleJanitor": {
             "enabled": true,
             "disableNoisyLoggers": false,
-            "disableSpotifyLogger": true
+            "disableSpotifyLogger": true,
+            "disableLoggers": false,
+            "whitelistedLoggers": "GatewaySocket; Routing/Utils"
         },
         "ConsoleShortcuts": {
             "enabled": false
@@ -141,7 +143,8 @@
         "Dearrow": {
             "enabled": true,
             "hideButton": true,
-            "replaceElements": 0
+            "replaceElements": 0,
+            "dearrowByDefault": true
         },
         "Decor": {
             "enabled": false
@@ -276,7 +279,7 @@
             "enabled": false
         },
         "NoDevtoolsWarning": {
-            "enabled": false
+            "enabled": true
         },
         "NoF1": {
             "enabled": true
@@ -324,7 +327,7 @@
             "enabled": false
         },
         "OpenInApp": {
-            "enabled": true,
+            "enabled": false,
             "spotify": true,
             "steam": true,
             "epic": true,
@@ -364,9 +367,6 @@
         "PreviewMessage": {
             "enabled": false
         },
-        "PronounDB": {
-            "enabled": false
-        },
         "QuickMention": {
             "enabled": false
         },
@@ -400,9 +400,6 @@
         "RoleColorEverywhere": {
             "enabled": false
         },
-        "SearchReply": {
-            "enabled": false
-        },
         "SecretRingToneEnabler": {
             "enabled": false
         },
@@ -424,9 +421,6 @@
             "theme": "https://raw.githubusercontent.com/shikijs/shiki/0b28ad8ccfbf2615f2d9d38ea8255416b8ac3043/packages/shiki/themes/dark-plus.json"
         },
         "ShowAllMessageButtons": {
-            "enabled": false
-        },
-        "ShowAllRoles": {
             "enabled": false
         },
         "ShowConnections": {
@@ -569,6 +563,33 @@
         },
         "NoMaskedUrlPaste": {
             "enabled": false
+        },
+        "AlwaysExpandRoles": {
+            "enabled": false
+        },
+        "CopyFileContents": {
+            "enabled": false
+        },
+        "StickerPaste": {
+            "enabled": false
+        },
+        "VolumeBooster": {
+            "enabled": false
+        },
+        "AccountPanelServerProfile": {
+            "enabled": true
+        },
+        "FullSearchContext": {
+            "enabled": false
+        },
+        "UserMessagesPronouns": {
+            "enabled": false
+        },
+        "DynamicImageModalAPI": {
+            "enabled": false
+        },
+        "FixImagesQuality": {
+            "enabled": false
         }
     },
     "notifications": {
@@ -581,6 +602,6 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1724774147801
+        "settingsSyncVersion": 1731109538230
     }
 }
