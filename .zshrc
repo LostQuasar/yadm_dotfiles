@@ -114,4 +114,3 @@ export GPG_TTY=$(tty)
 export PATH=$PATH:~/.local/bin:~/.cargo/bin
 
 export PATH=$PATH:/home/lostquasar/.spicetify
-afetch
