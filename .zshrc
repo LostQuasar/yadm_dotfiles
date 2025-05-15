@@ -114,3 +114,12 @@ export GPG_TTY=$(tty)
 export PATH=$PATH:~/.local/bin:~/.cargo/bin
 
 export PATH=$PATH:/home/lostquasar/.spicetify
+
+# pnpm
+export PNPM_HOME="/home/lostquasar/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
+fastfetch
